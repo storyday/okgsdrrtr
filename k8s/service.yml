@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: okgsdrrtr
+  name: pokiuyftd
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "okgsdrrtr"
+  - name: "pokiuyftd"
     port: 8080
   selector:
-    app: okgsdrrtr
+    app: pokiuyftd
